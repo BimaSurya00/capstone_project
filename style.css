@@ -1,0 +1,30 @@
+h1 {
+    margin : 0 0 0.5em 0;
+    margin-bottom : 0.5em;
+    text-align : center;
+    color : gray;
+}
+
+h2 {
+    margin : 2em ;
+    text-align : center;
+    color : gray;
+}
+p {
+    text-align : center;
+    color : gray;
+    font-size : normal;
+    position : relative;
+}
+
+.rectangle {
+    background-color : #f2f2f2;
+    opacity : 0.8;
+    width : 50%;
+    height : 500px;
+    border-radius : 10px;
+    display : block;
+    align-item : center;
+    justify-content : center;
+    margin : 0 auto;
+}
