@@ -1,6 +1,6 @@
 # capstone_project
 
-## Sensor Taat Masker
+## Sensor Taat Masker Berbasis Website
 Proyek ini dapat mendeteksi orang yang menggunakan masker/tidak dengan menggunakan webcam/kamera laptop, dan hasilnya nanti bisa dilihat di website 
 
 untuk design ui/ux nya kira-kira seperti ini:
