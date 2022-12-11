@@ -60,8 +60,8 @@ pip install Flask
 ## Our Team
 
 ### C22-116
-* M183X025 - Bima Surya Nurwahid
-* M319Y0859 - Liberty Lala Octavia Sitorus
-* M315X0844 - Muhammad Dhafi Alfaridzi
-* M435Y0979 - Nabilah Sofieyanti
+- M183X025 - Bima Surya Nurwahid
+- M319Y0859 - Liberty Lala Octavia Sitorus
+- M315X0844 - Muhammad Dhafi Alfaridzi
+- M435Y0979 - Nabilah Sofieyanti
 
