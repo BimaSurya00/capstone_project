@@ -1,6 +1,7 @@
 # Sistem taat masker
 
-[![Reccoffee.jpg](https://i.postimg.cc/mg5qjHK4/Home.jpg)](https://postimg.cc/0z7c2b8X)
+![image](https://user-images.githubusercontent.com/105061172/206904938-ce3a67e0-2593-4042-908c-0968ccfcc9be.png)
+
 
 ## About Sistem taat masker
 **RECCOFEE** is a website used to provide recommendations for coffee types based on user preferences. but not only that, we also provide information about coffee drinks and provide features for purchasing quality coffee beans.
