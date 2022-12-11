@@ -1,11 +1,9 @@
-
-
 let video = document.getElementById("video");
 let model;
 let canvas = document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 
-const id2class = {0:"FaceMask", 1:"No_FaceMask"};
+const id2class = {0:"Memakai Masker", 1:"Tidak Memakai Masker"};
 
 const setupCamera = () => {
     navigator.mediaDevices
@@ -21,18 +19,6 @@ const setupCamera = () => {
             console.log("Something went wrong!");
         });
 };
-
-function download() {
-
-    var currentdate = new Date(); 
-
-    var link = document.createElement('a');
-    link.download = 'filename' + currentdate.getDate() + '-' + (currentdate.getMonth()+1) + '-' + currentdate.getFullYear() + '@' + currentdate.getHours() 
-                    + currentdate.getMinutes() + '-' + currentdate.getSeconds() + '.png';
-
-    link.href = document.getElementById('canvas').toDataURL()
-    link.click();
-}
 
 function detectImage() {
     video.width = 611;
@@ -65,25 +51,6 @@ function detectImage() {
         
         let content = id2class[classID] + " " + score.toFixed(2);
         ctx.fillText(content, bbox[0], bbox[1] < 20 ? bbox[1] + 30 : bbox[1]-5);
-
-        var currentdate = new Date();
-        var Time = currentdate.getSeconds();
-    
-        if ((classID == 1) && (Time == 15)) {
-            download();
-        }
-    
-        if ((classID == 1) && (Time == 30)) {
-            download();
-        }
-
-        if ((classID == 1) && (Time == 45)) {
-            download();
-        }
-
-        if ((classID == 1) && (Time == 59)) {
-            download();
-        }
     }
 
     })
