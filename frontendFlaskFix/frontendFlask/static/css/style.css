@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Nunito:wght@500&display=swap'); 
+* {
+    box-sizing:border-box ;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    margin-left: 40px;
+    margin-top: -10px;
+}
+.Tim {
+    font-size: 30px;
+    padding-top: 15px;
+    color : RGB(35,76,173);
+}
+h1, .judul {
+    margin : 0 0 0.5em 0;
+    margin-bottom : 0.5em;
+    font-size: 30px;
+    font-family: 'Nunito';
+    text-align : center;
+    color : RGB(35,76,173) !important;
+}
+h5 {
+    font-family: 'Nunito';
+    font-size: 20px;
+}
+h2 {
+    font-family: 'Nunito';
+    font-size: 28px;
+    text-align : center;
+    color : RGB(35,76,173);
+}
+#video {
+    border-radius : 60px;
+    display : block;
+    overflow: hidden;
+    justify-content : center;
+}
+p {
+    text-align : center;
+    font-size: 15px;
+    color : black;
+    font-size : normal;
+    position : relative;
+    font-family: 'Nunito';
+}
+footer {
+    margin-bottom: -13px !important;
+        margin: auto;
+        padding: 10px;
+        color : RGB(35,76,173);
+        font-family: 'Nunito';
+        background-color: RGB(221,230,249);
+        border-radius : 60px;
+        text-align: center;
+        font-weight: bold;
+    
+}
+.img-preview {
+    width: 611px;
+    height: 500px;
+  object-fit: contain;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;    
+}
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 611px 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h4 {
+    font-size: 23px;
+    text-align : center;
+}
+input[type="file"] {
+    border-radius: 5px;
+    display: none;
+    display: inline-block;
+    padding: 12px 30px;
+    background: RGB(3, 61, 252);
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover{
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #3498db; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+.card-img-top{
+    width: 50%;
+}
+.rectangle {
+    box-shadow: 40px 0px 40px 0px rgba(0, 0, 0, 0.1);
+    background-color : #f2f2f2;
+    opacity : 0.8;
+   width : 611px;
+    height : 500px;
+    border-radius : 60px;
+    display : block;
+    justify-content : center;
+    background-color: RGB(221,230,249);
+    margin : 0 auto;
+    overflow: hidden;
+}
+.anggota {
+    padding-bottom: auto;
+}
+#result {
+    text-align: center;
+}
